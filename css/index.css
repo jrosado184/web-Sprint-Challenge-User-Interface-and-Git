@@ -56,6 +56,70 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+/*nav and lambda logo*/
+nav {
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    left: 60px
+    
+}
+
+nav a {
+    margin: 40px;
+    text-decoration: none;
+    color: black;
+    
+   
+    
+}
+
+
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.header img {
+position: relative;
+top: 115px;
+right: 320px;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+/*middle img*/
+
+.jumbo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/*middle img*/
+
+
+
+
+
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
