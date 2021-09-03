@@ -58,7 +58,7 @@ html, body {
 
 
 /*nav and lambda logo*/
-nav {
+ nav {
     display: flex;
     flex-direction: row ;
     justify-content: center;
@@ -77,9 +77,6 @@ nav a {
     
 }
 
-
-
-
 .header {
     display: flex;
     justify-content: center;
@@ -97,26 +94,12 @@ right: 320px;
 
 
 
-
-
-
-
-
-
-
-/*middle img*/
-
 .jumbo {
     display: flex;
     justify-content: center;
     padding: 20px;
     margin-top: 40px;
 }
-
-/*middle img*/
-
-
-
 
 
 
@@ -190,21 +173,26 @@ p {
     padding-right: 0;
 }
 
-footer {
+footer .bottom  {
     width: 100%;
     background: black;
+    border:15px solid black;
+    position: relative;
+    right:60px;
+   
 }
 
-footer nav {
+.bottom nav a {
     width: 60%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
+    justify-content: center;
+    align-items: space-between;
+    padding: 30px 2%;
     font-size: 14px;
 }
 
-footer nav a {
+ .bottom a {
     color: white;
     text-decoration: none;
+    
 }
