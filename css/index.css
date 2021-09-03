@@ -298,3 +298,164 @@ footer .bottom  {
     text-decoration: none;
     
 }
+
+/*Please don't configure anything about,that section is the home page */
+
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+.gallery .plan {
+    position: relative;
+    top:90px;
+    left: 570px
+}
+
+.study {
+position: relative;
+left: 970px;
+bottom: 260px;
+
+
+
+}
+
+.class {
+    position: relative;
+    bottom: 35px;
+    left: 560px;
+}
+
+.meeting {
+    position: relative;
+    left:960px;
+    bottom: 400px;
+    
+}
+
+.learnbuttons {
+    background-color: white;
+    border: black 3px solid;
+    border-radius: 10px;
+    color:black;
+    padding:10px;
+    position: relative;
+    top: 60px;
+    text-decoration: none;
+}
+
+.firstbutton {
+    background-color: white;
+    border: black 3px solid;
+    border-radius: 10px;
+    color:black;
+    padding:10px;
+    position: relative;
+    top: 60px;
+    text-decoration: none;
+}
+
+.thirdbutton {
+    background-color: white;
+    border: black 3px solid;
+    border-radius: 10px;
+    color:black;
+    padding:10px;
+    position: relative;
+    top: 60px;
+    text-decoration: none;
+}
+
+.fourthbutton {
+    background-color: white;
+    border: black 3px solid;
+    border-radius: 10px;
+    color:black;
+    padding:10px;
+    position: relative;
+    top: 60px;
+    text-decoration: none;
+}
+
+.lastp {
+display: flex;
+justify-content: center;
+
+}
+.lastp h2 {
+    position: relative;
+    bottom: 160px;
+    left:50px
+}
+
+ .finalp {
+    position: relative;
+    bottom: 110px;
+    left:-115px
+}
+
+.bottomline {
+width:20%;
+position: relative;
+right: 760px;;
+top: 100px
+
+}
+
+.linetwo {
+    width:20%;
+    position: relative;
+    right: 800px;
+    top: 106px
+}
+
+.linethree {
+    width: 100%;
+    position: relative;
+    top: 160px;
+    right: 40px
+}
+
+.lastline {
+    width: 20%;
+    position: relative;
+    right: 789px;
+    top: 138px
+}
+
+.lineabout {
+    position: relative;
+    top: 100px;
+    width:20%
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
