@@ -56,6 +56,53 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+/*nav and lambda logo*/
+ nav {
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    left: 60px
+    
+}
+
+nav a {
+    margin: 40px;
+    text-decoration: none;
+    color: black;
+    
+   
+    
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.header img {
+position: relative;
+top: 115px;
+right: 320px;
+}
+    
+
+
+
+
+
+.jumbo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -101,16 +148,118 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1  {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box2  {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .middle-content .boxes .box3 {
+        width: 12.5%;
+        height: 100px;
+        background: cadetblue;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .middle-content .boxes .box4 {
+        width: 12.5%;
+        height: 100px;
+        background: coral;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .middle-content .boxes .box5 {
+        width: 12.5%;
+        height: 100px;
+        background: crimson;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .middle-content .boxes .box6 {
+        width: 12.5%;
+        height: 100px;
+        background: forestgreen;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .middle-content .boxes .box7 {
+        width: 12.5%;
+        height: 100px;
+        background: darkorchid;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .middle-content .boxes .box8 {
+        width: 12.5%;
+        height: 100px;
+        background: hotpink;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .middle-content .boxes .box9 {
+        width: 12.5%;
+        height: 100px;
+        background: indigo;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .middle-content .boxes .box10 {
+        width: 12.5%;
+        height: 100px;
+        background: dodgerblue;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+/* up here are the boxes*/
+
 
 .bottom-content {
     display: flex;
@@ -126,21 +275,183 @@ p {
     padding-right: 0;
 }
 
-footer {
+footer .bottom  {
     width: 100%;
     background: black;
+    border:15px solid black;
+    position: relative;
+    right:60px;
+   
 }
 
-footer nav {
+.bottom nav a {
     width: 60%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
+    justify-content: center;
+    align-items: space-between;
+    padding: 30px 2%;
     font-size: 14px;
 }
 
-footer nav a {
+ .bottom a {
     color: white;
     text-decoration: none;
+    
 }
+
+/*Please don't configure anything about,that section is the home page */
+
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+.gallery .plan {
+    position: relative;
+    top:90px;
+    left: 570px
+}
+
+.study {
+position: relative;
+left: 970px;
+bottom: 286px;
+
+
+
+}
+
+.class {
+    position: relative;
+    bottom: 35px;
+    left: 560px;
+}
+
+.meeting {
+    position: relative;
+    left:960px;
+    bottom: 400px;
+    
+}
+
+.learnbuttons {
+    background-color: white;
+    border: black 3px solid;
+    border-radius: 10px;
+    color:black;
+    padding:10px;
+    position: relative;
+    top: 60px;
+    text-decoration: none;
+}
+
+.firstbutton {
+    background-color: white;
+    border: black 3px solid;
+    border-radius: 10px;
+    color:black;
+    padding:10px;
+    position: relative;
+    top: 60px;
+    text-decoration: none;
+}
+
+.thirdbutton {
+    background-color: white;
+    border: black 3px solid;
+    border-radius: 10px;
+    color:black;
+    padding:10px;
+    position: relative;
+    top: 60px;
+    text-decoration: none;
+}
+
+.fourthbutton {
+    background-color: white;
+    border: black 3px solid;
+    border-radius: 10px;
+    color:black;
+    padding:10px;
+    position: relative;
+    top: 60px;
+    text-decoration: none;
+}
+
+.lastp {
+display: flex;
+justify-content: center;
+
+}
+.lastp h2 {
+    position: relative;
+    bottom: 160px;
+    left:50px
+}
+
+ .finalp {
+    position: relative;
+    bottom: 110px;
+    left:-115px
+}
+
+.bottomline {
+width:20%;
+position: relative;
+right: 760px;;
+top: 100px
+
+}
+
+.linetwo {
+    width:20%;
+    position: relative;
+    right: 800px;
+    top: 106px
+}
+
+.linethree {
+    width: 100%;
+    position: relative;
+    top: 160px;
+    right: 40px
+}
+
+.lastline {
+    width: 20%;
+    position: relative;
+    right: 789px;
+    top: 165px
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
